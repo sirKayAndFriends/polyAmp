@@ -3,7 +3,7 @@
 This is the base code for a versatile guitar amp for all sorts of nice sounds.  
 
 ## Features:
--Preamp boost with variable centre frequency control and treble and bass cut controls
+- Preamp boost with variable centre frequency control and treble and bass cut controls
 - 3 Band EQ with variable mid control for all sorts of different amp sounds
 - Speaker cabinet sparkle control for bright/warm speaker sounds
 - Two channels of differing overdrives.  "LO" channel is a simple hyperbolic tan (tanh) waveshiping thing. "HI" is a stack of triode-like waveshaping things.  See references for source.
