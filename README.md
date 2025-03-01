@@ -8,7 +8,7 @@ This is the base code for a versatile guitar amp for all sorts of nice sounds.
 - Speaker cabinet sparkle control for bright/warm speaker sounds
 - Two channels of differing overdrives.  "LO" channel is a simple hyperbolic tan (tanh) waveshiping thing. "HI" is a stack of triode-like waveshaping things.  See references for source.
 
-![amp panel graphic](panel.jpg)
+![amp panel graphic](panel.png)
 
 ## How to use this Amplifer
 ### _BOOST SECTION_
