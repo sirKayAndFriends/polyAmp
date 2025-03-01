@@ -43,8 +43,8 @@ Output volume.  Owing to the large volume drop in the _HI_ channel this control 
 ### _DRIVER_
 This orange box selects the audio-driver of your choice.
 
-## A Short screed on Cab Sims<br>
-This software does not contain a "Cab Sim" in the traditional sense (using Impulse Response code).  Partly because I couldn't be bothered but also because there are already 7 independent tone controls before the "cab sim" module (a lowpass filter).  These controls get you 90% of the way there and I'm note sure why we have to strictly follow the architecture of physical amplifiers when making a digital one.  Finally, this software is not an emulator in that it is not attempting to recreate specific sounds of, say, a JCM800 but is instead a ballpark painting box
+## A Short screed on Cab Sims
+This software does not contain a "Cab Sim" in the traditional sense (using Impulse Response code).  Partly because I couldn't be bothered but also because there are already 7 independent tone controls before the "cab sim" module (a lowpass filter).  These controls get you 90% of the way there.  It seems a bit redundant to mimic exactly each component of a physical amplifier but that's just my opinion.  This software is not an emulator - it is not attempting to recreate the specific sounds of, say, a JCM800 but is instead a ballpark paint box to experiment with.
 
 ## Architecture
 - input
