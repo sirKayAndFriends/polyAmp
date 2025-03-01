@@ -46,6 +46,20 @@ This orange box selects the audio-driver of your choice.
 ## A Short screed on Cab Sims<br>
 This software does not contain a "Cab Sim" in the traditional sense (using Impulse Response code).  Partly because I couldn't be bothered but also because there are already 7 independent tone controls before the "cab sim" module (a lowpass filter).  These controls get you 90% of the way there and I'm note sure why we have to strictly follow the architecture of physical amplifiers when making a digital one.  Finally, this software is not an emulator in that it is not attempting to recreate specific sounds of, say, a JCM800 but is instead a ballpark painting box
 
+## Architecture
+- input
+- Anti-aliasing filter with a cutoff frequency set at 1/4 of the sampling rate
+- Series lowpass filter @3500Hz and highpass filter @35Hz
+- Boost and preamp tone controls
+- Two channel overdrive
+- Two channel lowpass filter
+- bass shelf
+- treble shelf
+- mid peaknotch
+- cabsim
+- Two channel level control and gain scaling
+- output
+
 ## THE FUTURE
 I am currently working on getting this in a box (minus the treble and bass controls on the boost section for space) using the Electrosmith Daisy.  Using GEN's C-export function this amp could be put into anything!
 I've had trouble porting this into a VST as I'm not great with C++ - but hopefully this will follow!
